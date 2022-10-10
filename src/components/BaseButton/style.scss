@@ -1,0 +1,47 @@
+.button {
+
+  &-primary {
+    background-color: #005BAC;
+
+    &:hover {
+      background-color: #3184cc;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: #b6d3ec;
+    }
+  }
+
+  &-secondary {
+    background-color: #686868;
+
+    &:hover {
+      background-color: #474747;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: #d3d3d3;
+    }
+  }
+
+  &-danger {
+    background-color: #b42525;
+
+    &:hover {
+      background-color: rgb(209, 80, 80);
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: #e7dbdb;
+    }
+  }
+
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.filter-container {
+    gap: 20px;
+    display: flex;
+    cursor: pointer;
+    padding: 6px 16px;
+  
+    &-button {
+      padding: 6px 16px;
+  
+      &--active {
+        border: 1px solid rgb(3, 169, 244);
+        padding: 6px 16px;
+      }
+    }
+  
+  }

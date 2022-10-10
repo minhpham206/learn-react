@@ -1,0 +1,34 @@
+.todos-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100px;
+  background-color: rgb(84, 168, 140);
+  color: white;
+  border-radius: 4px;
+  position: relative;
+  padding: 10px;
+
+  &__btn-close,
+  &__btn-edit {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+
+  &__btn-close {
+    right: 5px;
+  }
+
+  &__btn-edit {
+    right: 20px;
+  }
+
+  &__title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 800;
+  }
+}
